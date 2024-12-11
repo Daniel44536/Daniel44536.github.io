@@ -237,11 +237,12 @@ body {
 
 
   @media (max-width: 480px) {
-
-        .estructura .sidebar-2  {
+    .estructura .sidebar-2  {
         display: none; /* Oculta el sidebar-1 */}
-              .estructura .sidebar-1  {
+
+        .estructura .sidebar-1  {
             display: none; /* Oculta el sidebar-1 */}
+
     .estructura {
         grid-template-columns: 1fr; /* Cambia a una sola columna */
         grid-template-areas:
@@ -252,7 +253,8 @@ body {
             "marca"
             "footer";
     }
-          .estructura .header{
+
+    .estructura .header{
         max-height: 100px;
     }
 }

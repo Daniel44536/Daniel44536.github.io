@@ -236,7 +236,7 @@ body {
   }
 
 
-  @media (max-width: 600px) {
+  @media (max-width: 800px) {
     .estructura .sidebar-2  {
         display: none; /* Oculta el sidebar-1 */}
 

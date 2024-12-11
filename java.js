@@ -382,7 +382,7 @@ function initMap() {
                     map,
                     position: details.geometry.location,
                     icon: {
-                        url: 'img/carniceria.jpg', // Ruta a tu ícono personalizado
+                        url: 'carniceria.jpg', // Ruta a tu ícono personalizado
                         scaledSize: new google.maps.Size(30, 30),
                     },
                 });

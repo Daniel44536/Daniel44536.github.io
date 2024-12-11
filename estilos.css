@@ -239,4 +239,7 @@ body {
             "mapa"
             "footer";
     }
+          .estructura .header{
+        max-height: 100px;
+    }
 }

@@ -24,10 +24,20 @@ body {
                          "sidebar-1     contenido   sidebar-2"
                          "sidebar-1     contenido   sidebar-2"
                          "mapa          mapa        mapa"
+                        "marca          marca       marca"
                          "footer        footer      footer";
     width: 100%;
     min-height: 100%;  /* Asegura que la estructura ocupe toda la altura disponible */
 }
+.estructura .marca {
+    text-align: justify; /* Justifica el texto */
+    margin: 20px; /* Margen para dar espacio alrededor */
+    line-height: 1.6; /* Aumenta la altura de línea para mayor legibilidad */
+    grid-area: marca;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+}
+
 
 .estructura > div {
     padding: 20px;
@@ -228,7 +238,7 @@ body {
 
   @media (max-width: 480px) {
 
-        .estructura .sidebar-2 {
+        .estructura .sidebar-2 .sidebar-1 {
         display: none; /* Oculta el sidebar-1 */}
     .estructura {
         grid-template-columns: 1fr; /* Cambia a una sola columna */
